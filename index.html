@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Arizona State Landscaping Services – Professional lawn care, tree trimming, irrigation, and landscape design in Arizona. Call 928-723-7535 for a free quote." />
+  <meta name="keywords" content="landscaping Arizona, lawn care, tree trimming, irrigation, landscape design, hardscaping, weed control" />
+  <meta property="og:title" content="Arizona State Landscaping Services" />
+  <meta property="og:description" content="Professional landscaping services in Arizona. Call 928-723-7535." />
+  <meta property="og:type" content="website" />
+  <title>Arizona State Landscaping Services</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER / NAV ===== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#home" class="logo">
+        <span class="logo__icon">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+            <circle cx="16" cy="16" r="16" fill="#2d6a4f"/>
+            <path d="M16 6c-1.5 3-4 5-4 9a4 4 0 008 0c0-4-2.5-6-4-9z" fill="#95d5b2"/>
+            <path d="M10 14c-1.2 2-1 4 0 5.5" stroke="#95d5b2" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M22 14c1.2 2 1 4 0 5.5" stroke="#95d5b2" stroke-width="1.5" stroke-linecap="round"/>
+            <rect x="14" y="19" width="4" height="7" rx="2" fill="#74c69d"/>
+          </svg>
+        </span>
+        <span class="logo__text">Arizona State<br/><strong>Landscaping</strong></span>
+      </a>
+      <nav class="nav" aria-label="Main navigation">
+        <ul class="nav__list">
+          <li><a href="#services" class="nav__link">Services</a></li>
+          <li><a href="#about" class="nav__link">About</a></li>
+          <li><a href="#gallery" class="nav__link">Gallery</a></li>
+          <li><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header__cta">
+        <a href="tel:9287237535" class="btn btn--outline btn--sm">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.92 2.18 2 2 0 012.92.18h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 7.91a16 16 0 006 6l1.09-1.08a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          928-723-7535
+        </a>
+        <a href="#contact" class="btn btn--primary btn--sm">Get a Quote</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <ul class="mobile-menu__list">
+        <li><a href="#services" class="mobile-menu__link">Services</a></li>
+        <li><a href="#about" class="mobile-menu__link">About</a></li>
+        <li><a href="#gallery" class="mobile-menu__link">Gallery</a></li>
+        <li><a href="#contact" class="mobile-menu__link">Contact</a></li>
+      </ul>
+      <div class="mobile-menu__cta">
+        <a href="tel:9287237535" class="btn btn--outline btn--block">Call 928-723-7535</a>
+        <a href="#contact" class="btn btn--primary btn--block">Get a Free Quote</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home" aria-label="Hero section">
+    <div class="hero__bg">
+      <img
+        src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=1920&q=80&fit=crop"
+        alt="Beautifully maintained green lawn and garden landscape in Arizona"
+        class="hero__img"
+        loading="eager"
+      />
+      <div class="hero__overlay"></div>
+    </div>
+    <div class="container hero__content">
+      <span class="hero__badge">Serving Arizona Since Day One</span>
+      <h1 class="hero__title">Arizona State<br/><span class="hero__title--accent">Landscaping Services</span></h1>
+      <p class="hero__subtitle">Transform your outdoor space with professional lawn care, landscape design, and property maintenance — tailored to Arizona's unique climate.</p>
+      <div class="hero__actions">
+        <a href="tel:9287237535" class="btn btn--primary btn--lg">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.92 2.18 2 2 0 012.92.18h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 7.91a16 16 0 006 6l1.09-1.08a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          Call Now
+        </a>
+        <a href="#contact" class="btn btn--ghost btn--lg">Get a Free Quote</a>
+      </div>
+      <div class="hero__stats">
+        <div class="stat">
+          <span class="stat__number">500+</span>
+          <span class="stat__label">Projects Completed</span>
+        </div>
+        <div class="stat__divider"></div>
+        <div class="stat">
+          <span class="stat__number">100%</span>
+          <span class="stat__label">Satisfaction Guarantee</span>
+        </div>
+        <div class="stat__divider"></div>
+        <div class="stat">
+          <span class="stat__number">AZ</span>
+          <span class="stat__label">Licensed &amp; Insured</span>
+        </div>
+      </div>
+    </div>
+    <a href="#services" class="hero__scroll" aria-label="Scroll to services">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+    </a>
+  </section>
+
+  <!-- ===== TRUST BAR ===== -->
+  <div class="trust-bar">
+    <div class="container trust-bar__inner">
+      <div class="trust-item">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        <span>Licensed &amp; Insured</span>
+      </div>
+      <div class="trust-item">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+        <span>Free Estimates</span>
+      </div>
+      <div class="trust-item">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+        <span>Satisfaction Guaranteed</span>
+      </div>
+      <div class="trust-item">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+        <span>Local Family Business</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="services" id="services" aria-label="Our Services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">What We Do</span>
+        <h2 class="section-title">Professional Landscaping Services</h2>
+        <p class="section-subtitle">From routine lawn maintenance to full landscape transformations, we bring expertise and care to every project in Arizona.</p>
+      </div>
+      <div class="services__grid">
+
+        <article class="service-card">
+          <div class="service-card__img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80&fit=crop"
+              alt="Professional lawn mowing and grass maintenance service"
+              class="service-card__img"
+              loading="lazy"
+            />
+          </div>
+          <div class="service-card__body">
+            <div class="service-card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            </div>
+            <h3 class="service-card__title">Lawn Mowing &amp; Maintenance</h3>
+            <p class="service-card__desc">Regular mowing, edging, blowing, and clean-up to keep your lawn looking pristine year-round. We customize schedules to fit your needs.</p>
+          </div>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1591857177580-dc82b9ac4e1e?w=600&q=80&fit=crop"
+              alt="Tree and shrub trimming and pruning service"
+              class="service-card__img"
+              loading="lazy"
+            />
+          </div>
+          <div class="service-card__body">
+            <div class="service-card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M17 8C8 10 5.9 16.17 3.82 22"/><path d="M9.28 22c2.22-5.96 5.79-10.44 12.72-11"/></svg>
+            </div>
+            <h3 class="service-card__title">Tree &amp; Shrub Trimming</h3>
+            <p class="service-card__desc">Expert pruning and shaping of trees, shrubs, and hedges to promote healthy growth and enhance your property's curb appeal.</p>
+          </div>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1563514227147-6d2ff665a6a0?w=600&q=80&fit=crop"
+              alt="Sprinkler irrigation system installation and repair"
+              class="service-card__img"
+              loading="lazy"
+            />
+          </div>
+          <div class="service-card__body">
+            <div class="service-card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2z"/><path d="M12 6v6l4 2"/></svg>
+            </div>
+            <h3 class="service-card__title">Irrigation Systems</h3>
+            <p class="service-card__desc">Installation, repair, and optimization of drip irrigation and sprinkler systems to keep your landscape thriving while conserving water.</p>
+          </div>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=600&q=80&fit=crop"
+              alt="Landscape design planning and installation for Arizona properties"
+              class="service-card__img"
+              loading="lazy"
+            />
+          </div>
+          <div class="service-card__body">
+            <div class="service-card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+            </div>
+            <h3 class="service-card__title">Landscape Design</h3>
+            <p class="service-card__desc">Custom landscape design and installation that blends beauty with Arizona's desert environment — drought-tolerant plants, native species, and more.</p>
+          </div>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=600&q=80&fit=crop"
+              alt="Hardscaping patio and walkway installation"
+              class="service-card__img"
+              loading="lazy"
+            />
+          </div>
+          <div class="service-card__body">
+            <div class="service-card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/></svg>
+            </div>
+            <h3 class="service-card__title">Hardscaping &amp; Patios</h3>
+            <p class="service-card__desc">Beautiful walkways, patios, retaining walls, and outdoor living spaces built to complement your landscaping and last for years.</p>
+          </div>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600&q=80&fit=crop&crop=bottom"
+              alt="Weed control and lawn fertilization treatment"
+              class="service-card__img"
+              loading="lazy"
+            />
+          </div>
+          <div class="service-card__body">
+            <div class="service-card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22V12M12 12C12 12 7 9 7 4a5 5 0 0110 0c0 5-5 8-5 8z"/></svg>
+            </div>
+            <h3 class="service-card__title">Weed Control &amp; Fertilization</h3>
+            <p class="service-card__desc">Targeted weed removal and professional fertilization programs to keep your lawn lush, green, and weed-free all season long.</p>
+          </div>
+        </article>
+
+      </div>
+      <div class="services__cta">
+        <a href="tel:9287237535" class="btn btn--primary btn--lg">Call for a Free Estimate</a>
+        <a href="#contact" class="btn btn--outline btn--lg">Contact Us Online</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about" id="about" aria-label="About Arizona State Landscaping Services">
+    <div class="container about__inner">
+      <div class="about__media">
+        <div class="about__img-main-wrap">
+          <img
+            src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=700&q=80&fit=crop"
+            alt="Landscaping professional working on a beautiful Arizona property"
+            class="about__img-main"
+            loading="lazy"
+          />
+        </div>
+        <div class="about__img-accent-wrap">
+          <img
+            src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=400&q=80&fit=crop"
+            alt="Lush green lawn care result from Arizona State Landscaping"
+            class="about__img-accent"
+            loading="lazy"
+          />
+        </div>
+        <div class="about__badge-float">
+          <span class="about__badge-num">5★</span>
+          <span class="about__badge-txt">Rated Service</span>
+        </div>
+      </div>
+      <div class="about__content">
+        <span class="section-badge">About Us</span>
+        <h2 class="section-title">Your Trusted Arizona Landscaping Experts</h2>
+        <p class="about__text">At Arizona State Landscaping Services, we're passionate about transforming outdoor spaces into beautiful, functional environments. With deep knowledge of Arizona's unique climate and soil conditions, we deliver landscaping solutions that thrive in the desert Southwest.</p>
+        <p class="about__text">We take pride in being a local business that genuinely cares about our community and our clients. Every property we work on receives the same attention to detail, professionalism, and quality workmanship — whether it's a small residential yard or a large commercial property.</p>
+        <ul class="about__list">
+          <li>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            Arizona-licensed and fully insured team
+          </li>
+          <li>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            Expert knowledge of desert-friendly plants
+          </li>
+          <li>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            Affordable pricing with no hidden fees
+          </li>
+          <li>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            Reliable, punctual, and professional service
+          </li>
+          <li>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            Free estimates for all new projects
+          </li>
+        </ul>
+        <a href="tel:9287237535" class="btn btn--primary btn--lg">Call 928-723-7535</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY ===== -->
+  <section class="gallery" id="gallery" aria-label="Our Work Gallery">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Our Work</span>
+        <h2 class="section-title">Recent Landscaping Projects</h2>
+        <p class="section-subtitle">See the quality transformations we've delivered for homeowners and businesses across Arizona.</p>
+      </div>
+      <div class="gallery__grid">
+        <div class="gallery__item gallery__item--wide">
+          <img
+            src="https://images.unsplash.com/photo-1558904541-efa843a96f01?w=900&q=80&fit=crop"
+            alt="Residential lawn transformation with lush green grass in Arizona"
+            loading="lazy"
+          />
+        </div>
+        <div class="gallery__item">
+          <img
+            src="https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=600&q=80&fit=crop"
+            alt="Neatly trimmed hedges and shrubs landscaping project"
+            loading="lazy"
+          />
+        </div>
+        <div class="gallery__item">
+          <img
+            src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80&fit=crop"
+            alt="Professional lawn mowing service on residential property"
+            loading="lazy"
+          />
+        </div>
+        <div class="gallery__item">
+          <img
+            src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=600&q=80&fit=crop"
+            alt="Backyard patio and hardscaping installation project"
+            loading="lazy"
+          />
+        </div>
+        <div class="gallery__item gallery__item--wide">
+          <img
+            src="https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=900&q=80&fit=crop"
+            alt="Complete front yard landscape design and installation project"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials" aria-label="Customer testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Testimonials</span>
+        <h2 class="section-title">What Our Customers Say</h2>
+      </div>
+      <div class="testimonials__grid">
+        <blockquote class="testimonial-card">
+          <div class="testimonial-card__stars" aria-label="5 stars">★★★★★</div>
+          <p class="testimonial-card__text">"Arizona State Landscaping completely transformed my front yard. The team was professional, efficient, and the results exceeded my expectations. My lawn has never looked better!"</p>
+          <footer class="testimonial-card__author">
+            <div class="testimonial-card__avatar" aria-hidden="true">JR</div>
+            <div>
+              <cite class="testimonial-card__name">James R.</cite>
+              <span class="testimonial-card__location">Kingman, AZ</span>
+            </div>
+          </footer>
+        </blockquote>
+        <blockquote class="testimonial-card">
+          <div class="testimonial-card__stars" aria-label="5 stars">★★★★★</div>
+          <p class="testimonial-card__text">"I've used several landscaping companies over the years, but none compare to the quality and reliability of Arizona State Landscaping. Marvin and his team are the best in the business!"</p>
+          <footer class="testimonial-card__author">
+            <div class="testimonial-card__avatar" aria-hidden="true">SM</div>
+            <div>
+              <cite class="testimonial-card__name">Sandra M.</cite>
+              <span class="testimonial-card__location">Flagstaff, AZ</span>
+            </div>
+          </footer>
+        </blockquote>
+        <blockquote class="testimonial-card">
+          <div class="testimonial-card__stars" aria-label="5 stars">★★★★★</div>
+          <p class="testimonial-card__text">"Excellent service from start to finish. They installed a new drip irrigation system that has saved me so much on my water bill. Highly recommend for anyone in Arizona!"</p>
+          <footer class="testimonial-card__author">
+            <div class="testimonial-card__avatar" aria-hidden="true">TP</div>
+            <div>
+              <cite class="testimonial-card__name">Tom P.</cite>
+              <span class="testimonial-card__location">Prescott, AZ</span>
+            </div>
+          </footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact" id="contact" aria-label="Contact us">
+    <div class="container contact__inner">
+      <div class="contact__info">
+        <span class="section-badge">Get In Touch</span>
+        <h2 class="section-title">Ready to Transform Your Outdoor Space?</h2>
+        <p class="contact__subtitle">Contact us today for a free estimate. We're here to help you create the landscape of your dreams.</p>
+
+        <div class="contact__details">
+          <a href="tel:9287237535" class="contact-item">
+            <div class="contact-item__icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.92 2.18 2 2 0 012.92.18h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 7.91a16 16 0 006 6l1.09-1.08a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            </div>
+            <div class="contact-item__content">
+              <span class="contact-item__label">Phone</span>
+              <span class="contact-item__value">928-723-7535</span>
+            </div>
+          </a>
+          <a href="mailto:marvininiguez3@gmail.com" class="contact-item">
+            <div class="contact-item__icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div class="contact-item__content">
+              <span class="contact-item__label">Email</span>
+              <span class="contact-item__value">marvininiguez3@gmail.com</span>
+            </div>
+          </a>
+          <div class="contact-item">
+            <div class="contact-item__icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div class="contact-item__content">
+              <span class="contact-item__label">Service Area</span>
+              <span class="contact-item__value">Arizona &amp; Surrounding Areas</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item__icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div class="contact-item__content">
+              <span class="contact-item__label">Hours</span>
+              <span class="contact-item__value">Mon–Sat: 7:00 AM – 6:00 PM</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact__form-wrap">
+        <form class="contact-form" id="contactForm" novalidate aria-label="Contact form">
+          <h3 class="contact-form__title">Request a Free Quote</h3>
+          <div class="form-group">
+            <label for="name" class="form-label">Full Name <span aria-hidden="true">*</span></label>
+            <input type="text" id="name" name="name" class="form-input" placeholder="John Smith" required autocomplete="name" />
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="phone" class="form-label">Phone Number <span aria-hidden="true">*</span></label>
+              <input type="tel" id="phone" name="phone" class="form-input" placeholder="(928) 555-0100" required autocomplete="tel" />
+            </div>
+            <div class="form-group">
+              <label for="email" class="form-label">Email Address</label>
+              <input type="email" id="email" name="email" class="form-input" placeholder="you@example.com" autocomplete="email" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="service" class="form-label">Service Needed</label>
+            <select id="service" name="service" class="form-input form-select">
+              <option value="">Select a service...</option>
+              <option>Lawn Mowing &amp; Maintenance</option>
+              <option>Tree &amp; Shrub Trimming</option>
+              <option>Irrigation Systems</option>
+              <option>Landscape Design</option>
+              <option>Hardscaping &amp; Patios</option>
+              <option>Weed Control &amp; Fertilization</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message" class="form-label">Message</label>
+            <textarea id="message" name="message" class="form-input form-textarea" rows="4" placeholder="Tell us about your project..."></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--block btn--lg">
+            Send My Request
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          </button>
+          <p class="form-note">We'll get back to you within 24 hours. No spam, ever.</p>
+          <div class="form-success" id="formSuccess" role="alert" aria-live="polite" hidden>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="20 6 9 17 4 12"/></svg>
+            Thank you! We'll be in touch soon.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA BANNER ===== -->
+  <div class="cta-banner">
+    <div class="container cta-banner__inner">
+      <div>
+        <h2 class="cta-banner__title">Ready to Get Started?</h2>
+        <p class="cta-banner__subtitle">Call us today for a free, no-obligation estimate.</p>
+      </div>
+      <div class="cta-banner__actions">
+        <a href="tel:9287237535" class="btn btn--white btn--lg">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.92 2.18 2 2 0 012.92.18h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 7.91a16 16 0 006 6l1.09-1.08a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          928-723-7535
+        </a>
+        <a href="mailto:marvininiguez3@gmail.com" class="btn btn--outline-white btn--lg">Email Us</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" aria-label="Site footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#home" class="logo logo--light">
+          <span class="logo__icon">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+              <circle cx="16" cy="16" r="16" fill="#2d6a4f"/>
+              <path d="M16 6c-1.5 3-4 5-4 9a4 4 0 008 0c0-4-2.5-6-4-9z" fill="#95d5b2"/>
+              <path d="M10 14c-1.2 2-1 4 0 5.5" stroke="#95d5b2" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M22 14c1.2 2 1 4 0 5.5" stroke="#95d5b2" stroke-width="1.5" stroke-linecap="round"/>
+              <rect x="14" y="19" width="4" height="7" rx="2" fill="#74c69d"/>
+            </svg>
+          </span>
+          <span class="logo__text">Arizona State<br/><strong>Landscaping</strong></span>
+        </a>
+        <p class="footer__tagline">Professional landscaping services for residential and commercial properties across Arizona.</p>
+        <div class="footer__contact-quick">
+          <a href="tel:9287237535">928-723-7535</a>
+          <a href="mailto:marvininiguez3@gmail.com">marvininiguez3@gmail.com</a>
+        </div>
+      </div>
+      <div class="footer__links">
+        <div class="footer__col">
+          <h4 class="footer__col-title">Services</h4>
+          <ul>
+            <li><a href="#services">Lawn Mowing &amp; Maintenance</a></li>
+            <li><a href="#services">Tree &amp; Shrub Trimming</a></li>
+            <li><a href="#services">Irrigation Systems</a></li>
+            <li><a href="#services">Landscape Design</a></li>
+            <li><a href="#services">Hardscaping &amp; Patios</a></li>
+            <li><a href="#services">Weed Control &amp; Fertilization</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">Company</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#gallery">Our Work</a></li>
+            <li><a href="#contact">Get a Quote</a></li>
+            <li><a href="tel:9287237535">Call Now</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p>&copy; 2026 Arizona State Landscaping Services. All rights reserved.</p>
+        <p>Licensed &amp; Insured in Arizona</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
